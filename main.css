@@ -1,0 +1,514 @@
+@media (min-width: 1940px) {
+    .containerss {
+        --bs-gutter-x: 10rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 3.5);
+        padding-left: calc(var(--bs-gutter-x) * 3.5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .img-brand {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .brand-row {
+        margin: auto;
+    }
+    .pay {
+        margin-left: 85px;
+    }
+}
+@media (min-width: 1500px) and (max-width: 1940px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1440px;
+    }
+}
+ @media (min-width: 1200px) and (max-width: 1500px)  {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1140px;
+    }
+    .topbar-list-item {
+        padding-right: 15px;
+    }
+    .clearance {
+        margin-left: 0px;
+    }
+    .btn-dark {
+        padding: 10px 20px;
+    }
+    .appliance-product-name a {
+        padding: 10px 20px;
+    }
+    .objects-text {
+        margin-left: 10px;
+    }
+    .object-p {
+        padding: 2rem 0;
+    }
+    .shop-sale {
+        margin: 15px 0 18px -12px;
+    }
+    .contact {
+        padding: 71px 100px 54px 100px;
+    }
+    .pay {
+        margin-left: 0;
+    }
+    .pay-online {
+        padding-right: 10px;
+    }
+} 
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .header-topbar {
+        display: none;
+    }
+    .navbar-list-item {
+        margin: 0 12px;
+    }
+    .fix {
+        margin-left: 60px;
+    }
+    .furniture {
+        height: 32rem;
+    }
+    .slide-text {
+        left: 33%;
+    }
+    .appliance-product-name a {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .product-new {
+        padding: 0 6rem;
+    }
+    .chair-freeship, .lamp-freeship {
+        font-size: 16px;
+    }
+    .btn-collectio {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .slide {
+        height: 27.5rem;
+    }
+    .shop-title {
+        font-size: 24px;
+    }
+    .shop-sale {
+        margin: 10px 0;
+        font-size: 12px;
+        padding-left: 19px
+    }
+    
+    .objects-text {
+        left: 28%;
+    }
+    .freeship {
+        font-size: 12px;
+    }
+   .btn-interior {
+        margin-top: 16px;
+        font-size: 11px;
+    }
+    .blog-shop {
+        padding-bottom: 0 !important;
+    }
+    .blog-heading {
+        margin: 10px 0;
+    }
+    .blog-paragrap {
+        margin: 13px 0;
+    }
+    .instagram {
+        padding: 16px 1rem;
+    }
+    .instagram-product {
+        display: none;
+    }
+    .instagram-product-mobile {
+        display: block;
+        margin-top: 32px;
+    }
+    .contact {
+        padding: 60px 1.5rem;
+    }
+    .pay{
+        margin-left: 23px;
+        padding: 0;
+    }
+    .producer {
+        margin-bottom: 8px;
+    }
+    .img-brand {
+        margin: 20px 0;
+        display: flex;
+    }
+    .brand-row {
+        margin: auto;
+    }
+    .login{
+        padding: 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+    .container {
+        padding: 0px;
+    }
+    .navbar {
+        padding: 0 1rem;
+    }
+    .navbar-list-icon {
+        width: 25px;
+    }
+    .header-topbar {
+        display: none;
+    }
+    .fix {
+        display: none;
+    }
+    .header-navbar {
+        height: 60px;
+    }
+    .heading-title {
+        line-height: 60px;
+        font-size: 37;
+    }
+    .menu-mobile {
+        display: block;
+        margin-top: -20px;
+    }
+    
+    .furniture {
+        height: 27rem;
+    }
+    .slide {
+        height: 24rem;
+    }
+    .slide-text {
+        left: 14.2rem;
+    }
+    .slide-text-title {
+        font-size: 30px;
+    }
+    .slide-text-paragrap {
+        font-size: 18px;
+    }
+    .btn-dark {
+        font-size: 13px;
+        padding: 10px 16px;
+    }
+    .appliance-product-name a {
+        font-size: 14px;
+        padding: 10px 14px;
+        white-space: nowrap; 
+    }
+    .new {
+        top: 15px;
+        left: 15px;
+    }
+    .span-new {
+        font-size: 13px;
+    }
+    span.self {
+        font-size: 13px;
+    }
+    .kitchen {
+        margin-bottom: 61px;
+    }
+    .product-list li a {
+        font-size: 14px;
+        margin: 0 11px;
+    }
+    .product-new {
+        padding: 0 5rem;
+    }
+
+    .blog-shop {
+        padding-bottom: 0;
+    }
+    .shop-title {
+        font-size: 25px;
+    }
+    .shop-sale {
+        font-size: 10px;
+        margin: 10px 0;
+    }
+    .freeship {
+        font-size: 12px;
+    }
+    .objects-text {
+        left: 30%;
+    }
+    .utilities {
+        padding: 2rem 0;
+    }
+    .utilities-col {
+        margin-bottom: 25px;
+    }
+    .instagram-product {
+        display: none;
+    }
+    .instagram-product-mobile {
+        display: block;
+        margin-top: 32px;
+    }
+    .contact {
+        padding: 50px 4rem;
+    }
+    .login {
+        padding: 0;
+    }
+    .media {
+        margin: 36px 0;
+    }
+    .img-brand {
+        margin: unset;
+        padding-bottom: 36px;
+    }
+    .pay {
+        margin-left: 24px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .row {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    /* .row >* {
+        padding-right: calc(var(--bs-gutter-x) * .3);
+        padding-left: calc(var(--bs-gutter-x) * .3);
+    } */
+    .container {
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+    }
+    .body {
+        overflow-x: hidden !important;
+        scrollbar-width: none;
+    }
+    .btn-dark {
+        font-size: 11px;
+        padding: 8px 8px;
+    }
+    .header-topbar {
+        display: none;
+    }
+    .fix {
+        display: none;
+    }
+    .header-navbar {
+        height: 60px;
+    }
+    .heading-title {
+        line-height: 55px;
+        font-size: 34px;
+    }
+    .menu-mobile {
+        display: block;
+        margin-top: -17px;
+    }
+    .navbar-toggler-icon {
+        font-size: 14px;
+    }
+    .navbar {
+        padding: 0 0.5rem;
+    }
+    .navbar-list-icon {
+        width: 25px;
+    }
+    .an {
+        display: none;
+    }
+    .furniture {
+        height: 22rem;
+    }
+    
+    .slide {
+        height: 28rem;
+    }
+    .slide-text {
+        left: 38%;
+    }
+    .slide-text-title {
+        font-size: 24px;
+    }
+    .slide-text-paragrap {
+        font-size: 16px;
+    }
+    .chair {
+        margin-bottom: 10px;
+    }
+    .appliance-product-name a {
+        font-size: 12px;
+        padding: 6px 10px;
+        white-space: nowrap;
+    }
+    .canchinh {
+        padding: 0;
+    }
+    .canchinhleft {
+        padding-left: 0;
+        padding-right: 6px;
+    }
+    .canchinhright {
+        padding-right: 0;
+        padding-left: 6px;
+    }
+    .new {
+        top: 8px;
+        left: 8px;
+    }
+    .span-new {
+        font-size: 10px;
+    }
+    span.self {
+        font-size: 10px;
+    }
+    .product-title {
+        font-size: 25px;
+    }
+    .product-para {
+        font-size: 14px;
+    }
+    .product-list li a {
+        font-size: 12px;
+        margin-left: 8px;
+        margin-right: 16px;
+    }
+     .product-new {
+        padding: 0 2rem;
+    }
+
+    .product-category {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .product-list li {
+        line-height: 12px;
+    }
+    .product-information {
+        padding-bottom: 16px;
+    }
+    .product-price {
+        font-size: 13px;
+    }
+    .addcart {
+        font-size: 13px;
+    }
+    .options {
+        top: 5px;
+        right: 2px;
+    }
+    .product-item:hover .options {
+        display: block;
+    }
+
+    .blog-shop {
+        padding: 0 !important;
+    }
+    .img-brand {
+        margin: unset;
+        padding: 25px 0;
+    }
+    .object-p {
+        padding: 1.5rem 0 0 0;
+    }
+    .btn-collectio {
+        padding: 6px 10px;
+    }
+    .objects-text {
+        position: unset;
+        transform: unset;
+        margin-top: 10px;
+        margin-bottom: 16px;
+    }
+
+    .chair-freeship, .lamp-freeship {
+        font-size: 12px;
+    }
+    .chair-freeship {
+        color: black;
+    }
+    .lamp-freeship {
+        margin-left: 15px;
+    }
+    .shop-title {
+        font-size: 24px;
+        color: black;
+    }
+    .shop-sale {
+        margin: 4px 0;
+        font-size: 12px;
+        padding-left: 19px;
+        color: black;
+    }
+    .utilities {
+        padding: 2rem 2rem 1rem;
+    }
+    .utilities-col {
+        margin-bottom: 20px;
+    }
+    .instagram-product {
+        display: none;
+    }
+    .instagram-product-mobile {
+        display: block;
+        margin-top: 32px;
+    }
+    .instagram-img-mobile img {
+        margin: auto;
+    }
+    .login {
+        padding: 15px 0.8rem;
+    }
+    .login-email {
+        height: 40px;
+        display: unset;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .login-btn {
+        height: 37px;
+        border-radius: 3px;
+        left: -7px;
+        top: -2px;
+    }
+    .contact {
+        display: none;
+    }
+    .contact-mobile {
+        display: block;
+    }
+    .appliance {
+        margin-top: 15px;
+        padding: 0 7px;
+    }
+    .kitchen {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .media {
+        margin: 16px 1px 36px 0;
+    }
+    .pay {
+        margin-left: 24px;
+        margin-top: 10px;
+    }
+}
