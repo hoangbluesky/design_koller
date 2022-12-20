@@ -607,11 +607,10 @@ span.self {
     margin-bottom: 32px;
 }
 .utilities-img {
-    width: 73px;
+   flex: 0 0 25%;
+   width: 50px !important;
 }
-.utilities-text {
-    padding-left: 11px;
-}
+
 .utilities-link {
     font-size: 15px;
     font-family: heading;
@@ -690,6 +689,7 @@ span.self {
 .brand-row {
     margin: 10px 0 0 -3px;
 }
+
 /* body-instagram */
 .instagram {
     padding: 16px 1.5rem;
