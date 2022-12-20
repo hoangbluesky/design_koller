@@ -430,7 +430,9 @@
     .product-item:hover .options {
         display: none;
     }
-
+    .blog-paragrap {
+        font-size: 15px;
+    }
     .blog-shop {
         padding: 0 !important;
     }
@@ -513,7 +515,7 @@
         display: unset;
         border-radius: 3px;
         margin-bottom: 15px;
-        width: 100%;
+        width: 90%;
     }
     .login-btn {
         height: 37px;
