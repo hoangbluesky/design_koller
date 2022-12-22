@@ -706,7 +706,9 @@ span.self {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
 }
-
+.instagram-p {
+    padding-bottom: 1rem;
+}
 .instagram-img {
     padding: 0 10px;
     width: 20%;
