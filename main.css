@@ -19,6 +19,23 @@
     .pay {
         margin-left: 85px;
     }
+    .chair-freeship {
+        font-size: 28px;
+    }
+    .shop-title {
+        font-size: 48px;
+    }
+    .shop-sale {
+        font-size: 22px;
+    }
+    .btn-dark {
+        font-size: 18px;
+        padding: 18px 40px;
+    }
+    .login-btn {
+        font-size: 15px;
+        padding: 13px 29px;
+    }
 }
 @media (min-width: 1500px) and (max-width: 1940px) {
     .container,
@@ -62,6 +79,12 @@
     }
     .contact {
         padding: 71px 100px 54px 100px;
+    }
+    .contact-phone {
+        display: block;
+    }
+    .contact-title {
+        padding-bottom: 5px;
     }
     .pay {
         margin-left: 0;
@@ -151,6 +174,12 @@
     }
     .contact {
         padding: 60px 1.5rem;
+    }
+    .contact-phone {
+        display: block;
+    }
+    .contact-title {
+        padding-bottom: 5px;
     }
     .pay{
         margin-left: 23px;
@@ -242,7 +271,10 @@
     .product-new {
         padding: 0 5rem;
     }
-
+    .product-name {
+        padding-top: 4px;
+        padding-bottom: 2px;
+    }
     .blog-shop {
         padding-bottom: 0;
     }
@@ -546,6 +578,9 @@
     .contact-mobile {
         display: block;
         background-color: #ebebeb;
+    }
+    .contact-title-mobile:hover {
+        color: var(--color-text);
     }
     .card-header, .list-group {
         background-color: #ebebeb;

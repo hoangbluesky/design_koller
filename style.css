@@ -365,6 +365,7 @@ body {
     padding: 14px 30px;
     border-radius: 3px;
     background-color: #fff;
+    white-space: nowrap;
 }
 /* product */
 .product-header {
@@ -790,7 +791,6 @@ span.self {
 .contact-phone {
     display: flex;
     margin-top: -8px;
-    margin-bottom: 6px;
 }
 .contact-item {
     font-size: 15px;
@@ -803,7 +803,7 @@ span.self {
 }
 .contact-img {
     display: block;
-    margin: 8px 20px 0 0;
+    margin: 8px 15px 0 0;
     width: 21px;
 }
 .contact-mobile {
