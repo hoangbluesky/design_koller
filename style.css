@@ -33,6 +33,7 @@ body {
     font-weight: inherit;
     color: inherit;
     letter-spacing: 0.5px !important;
+    overflow-x: hidden;
 }
 :root {
     --color-light: #575454;
@@ -764,6 +765,18 @@ span.self {
 .media-item .fa {
     font-size: 18px;
 }
+.footer-link {
+    padding-bottom: 15px;
+    position: relative;
+}
+.check-down {
+    position: absolute;
+    right: 13px;
+    top: 10px;
+}
+a.list-group-item.contact-link.contact-item.contact-item-mobile {
+    background-color: #ebebeb;
+}
 /* footer */
 .contact {
     background-color: #ebebeb;
@@ -846,8 +859,10 @@ span.self {
     line-height: 32px;
     margin: 0;
 }
+
 /* footer-layout */
 .footer-layout {
+    margin-bottom: 10px;
 }
 .producer {
     padding-top: 3px;

@@ -225,7 +225,10 @@
         display: block;
         margin-top: -15px;
     }
-    
+    .icon-badge {
+        top: -6px;
+        right: -3px;
+    }
     .furniture {
         height: 27rem;
     }
@@ -241,13 +244,16 @@
     .slide-text-paragrap {
         font-size: 18px;
     }
+    .silde-btn {
+        margin: 0 !important;
+    }
     .btn-dark {
         font-size: 13px;
         padding: 10px 16px;
     }
     .appliance-product-name a {
         font-size: 14px;
-        padding: 10px 14px;
+        padding: 7px 10px;
         white-space: nowrap; 
     }
     .new {
@@ -278,16 +284,20 @@
     .blog-shop {
         padding-bottom: 0;
     }
+    .chair-freeship {
+        font-size: 2.5vw;
+    }
     .shop-title {
-        font-size: 25px;
+        font-size: 4vw;
     }
     .shop-sale {
-        font-size: 10px;
+        font-size: 1.5vw;
         margin: 10px 0;
     }
     .contact-information-company, .contact-item {
         font-size: 14px;
     }
+    
     .freeship {
         font-size: 12px;
     }
@@ -465,6 +475,12 @@
     .addcart {
         font-size: 13px;
     }
+    .product-item:hover .addcart {
+        display: none;
+    }
+    .product-item:hover .product-price {
+        display: block;
+    }
     .options {
         display: none;
         top: 5px;
@@ -496,35 +512,27 @@
         padding: 1.5rem 0 0 0;
     }
     .btn-collectio {
-        padding: 6px 10px;
+        padding: 6px 6px;
+        font-size: 9px;
     }
-    .objects-text {
-        position: unset;
-        transform: unset;
-        margin-top: 10px;
-        margin-bottom: 16px;
+    .sile-right {
+        padding-left: 0;
     }
     #fetured {
         padding-top: 14px;
     }
     .chair-freeship, .lamp-freeship {
-        font-size: 12px;
+        font-size: 3vw;
     }
-    .chair-freeship {
-        color: black;
-    }
-    .lamp-freeship {
-        margin-left: 15px;
+    .silde-btn {
+        margin: 0 !important;
     }
     .shop-title {
-        font-size: 24px;
-        color: black;
+        font-size: 4vw;
     }
     .shop-sale {
-        margin: 4px 0;
-        font-size: 12px;
-        padding-left: 19px;
-        color: black;
+        margin: 2px 0;
+        font-size: 2vw;
     }
     .utilities {
         padding: 2rem 0.5rem 1rem;
@@ -584,6 +592,7 @@
     }
     .card-header, .list-group {
         background-color: #ebebeb;
+        padding-top: 15px;
     }
     .appliance {
         margin-top: 15px;
@@ -600,5 +609,8 @@
     .pay {
         margin-left: 24px;
         margin-top: 10px;
+    }
+    .producer-made {
+        text-align: center;
     }
 }
