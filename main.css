@@ -1,12 +1,19 @@
 @media (min-width: 1940px) {
     .containerss {
-        --bs-gutter-x: 10rem;
         --bs-gutter-y: 0;
         width: 100%;
-        padding-right: calc(var(--bs-gutter-x) * 3.5);
-        padding-left: calc(var(--bs-gutter-x) * 3.5);
         margin-right: auto;
         margin-left: auto;
+    }
+    .offcanvas-mobile {
+        display: none;
+    }
+    .shoppage {
+        width: 50vw;
+        left: -15rem;
+    }
+    .objects-img img {
+        width: 100%;
     }
     .img-brand {
         display: flex;
@@ -36,18 +43,31 @@
         font-size: 15px;
         padding: 13px 29px;
     }
+    .appliance-product img {
+        width: 100%;
+    }
 }
-@media (min-width: 1500px) and (max-width: 1940px) {
+@media (min-width: 1536px) and (max-width: 1940px){
     .container,
     .container-lg,
     .container-md,
     .container-sm,
     .container-xl,
     .container-xxl {
-        max-width: 1440px;
+        max-width: 1417px;
+    }
+    .offcanvas-mobile {
+        display: none;
+    }
+    .appliance-product img {
+        width: 100%;
+    }
+    .shoppage {
+        width: 75vw;
+        left: -20rem;
     }
 }
- @media (min-width: 1200px) and (max-width: 1500px)  {
+ @media (min-width: 1367px) and (max-width: 1536px) {
     .container,
     .container-lg,
     .container-md,
@@ -61,6 +81,13 @@
     }
     .clearance {
         margin-left: 0px;
+    }
+    .shoppage {
+        width: 90vw;
+        left: -28vw;
+    }
+    .offcanvas-mobile {
+        display: none;
     }
     .btn-dark {
         padding: 10px 20px;
@@ -95,16 +122,33 @@
     .utilities-img {
         flex: 0 0 25%;
         margin-right: 15px;
+
     }
+    
 } 
 
 
-@media (min-width: 991px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1367px) {
     .header-topbar {
         display: none;
     }
+    .utiliti-list {
+        display: none !important;
+    }
+    .clearance {
+        position: unset;
+        transform: unset;
+    }
     .navbar-list-item {
         margin: 0 12px;
+    }
+    .navigation-item {
+        margin: 0px 6px;
+    }
+    .shoppage {
+        width: 86vw;
+        left: -21vw;
+        height: 442px;
     }
     .fix {
         margin-left: 60px;
@@ -112,9 +156,7 @@
     .furniture {
         height: 32rem;
     }
-    .slide-text {
-        left: 33%;
-    }
+    
     .appliance-product-name a {
         font-size: 13px;
         padding: 10px 20px;
@@ -124,6 +166,9 @@
     }
     .chair-freeship, .lamp-freeship {
         font-size: 16px;
+    }
+    .offcanvas-mobile {
+        display: none;
     }
     .btn-collectio {
         padding: 8px 16px;
@@ -140,8 +185,12 @@
         font-size: 12px;
         padding-left: 19px
     }
+    .utilities {
+        padding: 50px 5px 25px 17px;
+    }
     .utilities-img {
-        flex: 0 0 18%;
+        flex: 0 0 25%;
+        margin-right: 15px;
     }
     .objects-text {
         left: 28%;
@@ -165,11 +214,8 @@
     .instagram {
         padding: 16px 1rem;
     }
-    .instagram-product {
-        display: none;
-    }
+    
     .instagram-product-mobile {
-        display: block;
         margin-top: 32px;
     }
     .contact {
@@ -198,12 +244,48 @@
         padding: 0;
     }
 }
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 767px) and (max-width: 992px) {
+    .utiliti-list {
+        display: none !important;
+    }
+    .clearance {
+        position: unset;
+        transform: unset;
+    }
+    .navigation {
+        display: none;
+    }
+    .navbarpadding {
+        padding: 0 15px;
+    }
+    .brand-row {
+        margin: 0;
+    }
+    .instagram-product {
+        display: none;
+    }
+    .instagram-product-mobile {
+        display: block;
+    }
+    .contact {
+        padding: 71px 0px 54px 0px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .utiliti-list {
+        display: none !important;
+    }
+    .clearance {
+        display: none !important;
+    }
+    .utiliti {
+        justify-content: center;
+    }
     .container {
         padding: 0px;
     }
-    .navbar {
-        padding: 0 1rem;
+    .navbarpadding {
+        padding: 0 15px;
     }
     .navbar-list-icon {
         width: 25px;
@@ -219,7 +301,6 @@
     }
     .heading-title {
         line-height: 44px;
-        font-size: 37;
     }
     .menu-mobile {
         display: block;
@@ -229,20 +310,24 @@
         top: -6px;
         right: -3px;
     }
+    .navigation {
+        display: none;
+    }
+    .navbarpadding {
+        padding: 0 15px;
+    }
     .furniture {
         height: 27rem;
     }
     .slide {
         height: 24rem;
     }
-    .slide-text {
-        left: 14.2rem;
-    }
+    
     .slide-text-title {
-        font-size: 30px;
+        font-size: 36px;
     }
     .slide-text-paragrap {
-        font-size: 18px;
+        font-size: 24px;
     }
     .silde-btn {
         margin: 0 !important;
@@ -284,6 +369,9 @@
     .blog-shop {
         padding-bottom: 0;
     }
+    .brand-row {
+        margin: 0;
+    }
     .chair-freeship {
         font-size: 2.5vw;
     }
@@ -314,6 +402,7 @@
     .utilities-img {
         flex: inherit;
         margin-right: 15px;
+        width: 62px;
     }
     
     .instagram-product {
@@ -342,24 +431,28 @@
 }
 @media (max-width: 576px) {
     .row {
-        padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-right: calc(var(--bs-gutter-x) * 0.9);
+        padding-left: calc(var(--bs-gutter-x) * 0.9);
     }
     .row >* {
         padding-right: calc(var(--bs-gutter-x) * .2);
         padding-left: calc(var(--bs-gutter-x) * .2);
     }
     .container {
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        padding: 0;
     }
     .body {
         overflow-x: hidden !important;
         scrollbar-width: none;
     }
+    .language-choose, .currency-choose {
+        left: 0;
+    }
+    
+    
     .btn-dark {
-        font-size: 11px;
-        padding: 8px 8px;
+        font-size: 12px;
+        padding: 10px 20px;
     }
     .header-topbar {
         display: none;
@@ -370,9 +463,29 @@
     .header-navbar {
         height: 53px;
     }
+    .topbarpadding {
+        padding: 11px 20px;
+    }
+    .navbarpadding {
+        padding: 0 15px;
+    }
     .heading-title {
         line-height: 37px;
-        font-size: 34px;
+    }
+    .utiliti-list {
+        display: none !important;
+    }
+    .clearance {
+        display: none !important;
+    }
+    .utiliti {
+        justify-content: center;
+    }
+    .currency {
+        margin: 0 10px 0 12px;
+    }
+    .mediatopbar-list-item {
+        margin-left: 15px;
     }
     .menu-mobile {
         display: block;
@@ -381,12 +494,14 @@
     .navbar-toggler-icon {
         font-size: 14px;
     }
-    .navbar {
-        padding: 0 0.5rem;
-    }
     .navbar-list-icon {
         width: 25px;
     }
+    .navigation {
+        display: none;
+    }
+
+
     .an {
         display: none;
     }
@@ -395,24 +510,30 @@
     }
     
     .slide {
-        height: 25rem;
+        height: 21rem;
     }
-    .slide-text {
-        left: 38%;
-    }
+    
     .slide-text-title {
-        font-size: 24px;
+        font-size: 28px;
     }
     .slide-text-paragrap {
-        font-size: 16px;
+        font-size: 18px;
     }
     .chair {
         margin-bottom: 10px;
+    }
+    .appliance {
+        margin-top: 15px;
+        padding: 0;
     }
     .appliance-product-name a {
         font-size: 12px;
         padding: 6px 10px;
         white-space: nowrap;
+    }
+    
+    .padding-row {
+        padding: 0 13px !important;
     }
     .canchinh {
         padding: 0;
@@ -508,12 +629,18 @@
     .dd {
         margin: 0 !important;
     }
+    .object {
+        margin: 0;
+    }
+    .objects-text {
+        left: 43%;
+    }
     .object-p {
         padding: 1.5rem 0 0 0;
     }
     .btn-collectio {
-        padding: 6px 6px;
-        font-size: 9px;
+        padding: 8px 16px;
+        font-size: 10px;
     }
     .sile-right {
         padding-left: 0;
@@ -522,17 +649,17 @@
         padding-top: 14px;
     }
     .chair-freeship, .lamp-freeship {
-        font-size: 3vw;
+        font-size: 3.125vw;
     }
     .silde-btn {
         margin: 0 !important;
     }
     .shop-title {
-        font-size: 4vw;
+        font-size: 4.4vw;
     }
     .shop-sale {
-        margin: 2px 0;
-        font-size: 2vw;
+        margin: 20px 0 8px 0;
+        font-size: 3.125vw;
     }
     .utilities {
         padding: 2rem 0.5rem 1rem;
@@ -547,6 +674,7 @@
     .utilities-img {
         flex: inherit;
         margin-right: 15px;
+        width: 62px;
     }
     .instagram-product {
         display: none;
@@ -558,8 +686,11 @@
         display: block;
         margin-top: 32px;
     }
+    .instagram-img-mobile {
+        margin-bottom: 0 !important;
+    }
     .instagram-img-mobile img {
-        margin: auto;
+        margin-bottom: auto;
     }
     #trendling {
         padding-bottom: 35px !important;
@@ -568,20 +699,26 @@
         padding: 15px 0.8rem;
     }
     .login-email {
-        height: 40px;
         display: unset;
         border-radius: 3px;
         margin-bottom: 15px;
-        width: 90%;
+        width: 100%;
     }
     .login-btn {
-        height: 37px;
         border-radius: 3px;
-        left: -7px;
-        top: -2px;
     }
-    .contact {
+    /* .contact {
         display: none;
+    }
+    .contact-mobile {
+        display: block;
+        background-color: #ebebeb;
+    }
+    .contact-title-mobile:hover {
+        color: var(--color-text);
+    } */
+    .contact {
+        padding: 0;
     }
     .contact-mobile {
         display: block;
@@ -594,10 +731,7 @@
         background-color: #ebebeb;
         padding-top: 15px;
     }
-    .appliance {
-        margin-top: 15px;
-        padding: 0 7px;
-    }
+    
     .kitchen {
         margin-top: 10px;
         margin-bottom: 40px;
