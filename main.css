@@ -712,26 +712,10 @@
     .login-btn {
         border-radius: 3px;
     }
-    /* .contact {
-        display: none;
-    }
-    .contact-mobile {
-        display: block;
-        background-color: #ebebeb;
-    }
-    .contact-title-mobile:hover {
-        color: var(--color-text);
-    } */
     .contact {
         padding: 0;
     }
-    .contact-mobile {
-        display: block;
-        background-color: #ebebeb;
-    }
-    .contact-title-mobile:hover {
-        color: var(--color-text);
-    }
+   
     .card-header, .list-group {
         background-color: #ebebeb;
         padding-top: 15px;

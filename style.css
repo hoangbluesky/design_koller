@@ -765,7 +765,6 @@ span.self {
     animation: addcart 0.5s;
     font-size: 14px;
     margin-top: 2px;
-    /* animation-delay: 0.2s; */
 }
 .addcart i {
     padding-left: 3px;
@@ -892,7 +891,6 @@ span.self {
    flex: 0 0 25%;
    width: 50px;
 }
-
 .utilities-link {
     font-size: 16px;
     font-family: heading;
@@ -909,9 +907,6 @@ span.self {
 }
 
 /* body-blog */
-.blog {
-
-}
 .blog-shop {
    margin-top: 24px; 
 }
@@ -927,12 +922,6 @@ span.self {
 .btn-interior:hover {
     color: #000;
     background-color: #fff;
-}
-.blog-lamp {
-
-}
-.blog-lamp-img {
-
 }
 .blog-lamp-text {
     margin-top: 21px;
@@ -1116,88 +1105,6 @@ a.list-group-item.contact-link.contact-item.contact-item-mobile {
     background-color: #ebebeb;
 }
 
-/* footer */
-/* .contact {
-    background-color: #ebebeb;
-    padding: 71px 273px 54px 230px;
-    margin-bottom: 20px;
-}
-h2.contact-title {
-    font-family: heading;
-    color: var(--color-text);
-    font-size: 18px;
-    line-height: 27px;
-    padding-bottom: 14px;
-}
-.contact-frames {
-    margin-left: -2px;
-}
-.contact-list {
-    padding: 0;
-}
-.contact-information-company {
-    font-size: 16px;
-    color: #8c8c8c;
-    font-family: redhat;
-}
-.contact-phone {
-    display: flex;
-    margin-top: -12px;
-}
-.contact-item {
-    font-size: 16px;
-    color: #8c8c8c;
-    font-family: redhat;
-    line-height: 30px;
-    overflow: hidden;
-    white-space: nowrap; 
-    text-overflow: ellipsis;
-}
-.contact-img {
-    display: block;
-    margin: 8px 15px 0 0;
-    width: 21px;
-}
-.contact-mobile {
-    background-color: #f5f5f5;
-    display: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.cards {
-    position: relative;
-    margin-bottom: 5px;
-    border: 0px;
-    padding: 0 10px;
-}
-.card-icon {
-    position: absolute;
-    top: 23%;
-    right: 30px;
-}
-.card-headers {
-    font-size: 20px;
-    font-family: heading;
-    color: var(--color-text);
-    border-radius: 3px !important;
-    border: 0px;
-    padding: 8px 3px;
-}
-.card-headers:hover {
-    background-color: #777777;
-}
-.card, .card-header {
-    border: 0;
-    padding: 0;
-}
-
-.contact-item-mobile {
-    border: none;
-    background-color: #f5f5f5;
-    padding: 0;
-    line-height: 32px;
-    margin: 0;
-} */
 .contact {
     background-color: #ebebeb;
     padding: 71px 273px 54px 230px;
@@ -1207,7 +1114,7 @@ h2.contact-title {
     display: block !important;
     padding: 0;
 }
-h2.contact-title {
+.contact-title {
     font-family: heading;
     color: var(--color-text);
     font-size: 18px;
@@ -1215,6 +1122,10 @@ h2.contact-title {
     padding: 0 0 14px 0;
     display: block !important;
     border: 0 !important;
+}
+.contact-title:focus {
+    box-shadow: none;
+    border: 0;
 }
 .contact-frames {
     margin-left: -2px;
@@ -1255,12 +1166,6 @@ h2.contact-title {
     display: block;
     margin: 8px 15px 0 0;
     width: 21px;
-}
-.contact-mobile {
-    background-color: #f5f5f5;
-    display: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 .lnr-chevron-down {
     display: none;
