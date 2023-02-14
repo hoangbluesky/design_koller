@@ -385,7 +385,12 @@
     .contact-information-company, .contact-item {
         font-size: 14px;
     }
-    
+    .lnr-chevron-down {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 2px;
+    }
     .freeship {
         font-size: 12px;
     }
@@ -416,7 +421,7 @@
         margin-top: 32px;
     }
     .contact {
-        padding: 50px 4rem;
+        padding: 20px 0rem;
     }
     .login {
         padding: 0;
@@ -731,7 +736,12 @@
         background-color: #ebebeb;
         padding-top: 15px;
     }
-    
+    .lnr-chevron-down {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 2px;
+    }
     .kitchen {
         margin-top: 10px;
         margin-bottom: 40px;

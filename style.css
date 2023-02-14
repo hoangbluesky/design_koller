@@ -245,9 +245,6 @@ sup {
 .navbar-koller {
     padding: 5px 0;
 }
-.navbar {
-    position: unset;
-}
 .header{
     position: relative;
     justify-content: space-between;
@@ -646,15 +643,17 @@ button.btn-close {
     letter-spacing: -0.5px;
     justify-content: center;
 }
+
 .product-list li a {
     margin: 0px 21px;
     font-size: 17px;
     color: var(--color-text);
     font-family: heading;
 }
-.product-list li:hover {
-    color: blue inherit;
+.product-list li a:hover {
+    color:#4ad295; 
 }
+
 /* body-product */
 
 .product-item {
@@ -839,6 +838,9 @@ span.self {
     top: 50%;
     text-align: center;
     transform: translate(-50%,-54%);
+}
+.objects-img {
+    overflow: hidden;
 }
 .chair-freeship, .lamp-freeship {
     font-size: 20px;
@@ -1113,6 +1115,7 @@ span.self {
 a.list-group-item.contact-link.contact-item.contact-item-mobile {
     background-color: #ebebeb;
 }
+
 /* footer */
 /* .contact {
     background-color: #ebebeb;
@@ -1200,18 +1203,27 @@ h2.contact-title {
     padding: 71px 273px 54px 230px;
     margin-bottom: 20px;
 }
+.nav-information {
+    display: block !important;
+    padding: 0;
+}
 h2.contact-title {
     font-family: heading;
     color: var(--color-text);
     font-size: 18px;
     line-height: 27px;
-    padding-bottom: 14px;
+    padding: 0 0 14px 0;
+    display: block !important;
+    border: 0 !important;
 }
 .contact-frames {
     margin-left: -2px;
+    
 }
 .contact-list {
     padding: 0;
+    margin-left: -3px;
+    margin-top: 3px;
 }
 .contact-information-company {
     font-size: 16px;
@@ -1230,6 +1242,14 @@ h2.contact-title {
     overflow: hidden;
     white-space: nowrap; 
     text-overflow: ellipsis;
+    padding-left: 4px;
+}
+.contact-item:hover {
+    background-color: #cecece;
+    border-radius: 3px;
+}
+.contact-item a:hover {
+    color: #000;
 }
 .contact-img {
     display: block;
@@ -1241,6 +1261,9 @@ h2.contact-title {
     display: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+.lnr-chevron-down {
+    display: none;
 }
 .cards {
     position: relative;
