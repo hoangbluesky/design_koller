@@ -32,7 +32,6 @@ p {
 }
 body {
     font-size: 16px;
-    box-sizing: border-box inherit;
     display: block;
     font-weight: inherit;
     color: inherit;
@@ -122,23 +121,23 @@ sup {
     word-spacing: 0;
     padding-left: 9px;
 }
-.utiliti {
+.top_header {
     display: flex;
     justify-content: space-between;
     height: 24px;
 }
-.utiliti-list {
+.top_header-list {
     display: flex;
     padding: 0;
     height: 24px;
 }
-.utiliti-item {
+.top_header-item {
     margin-right: 31px;
 }
-.utiliti-item:hover .utiliti-link {
+.top_header-item:hover .top_header-link {
     color: #1a73e8;
 }
-.utiliti-link {
+.top_header-link {
     font-size: 14px;
 }
 
@@ -146,9 +145,10 @@ sup {
     display: flex;
     height: 35px;
 }
-
 .language-show, .currency-show {
     cursor: pointer;
+    margin-left: -31px;
+
 }
 .language-show img {
     display: inline;
@@ -249,12 +249,13 @@ sup {
     position: relative;
     justify-content: space-between;
 }.navbarpadding {
-    padding: 0 30px;
+    padding: 2px 30px;
 }
 .logo-title {
     font-family: heading;
     font-size: 39px;
     color: var(--color-text);
+    margin-top: 6px;
 }
 
 .navigation {
@@ -262,8 +263,6 @@ sup {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-top: -5px;
-    margin-left: 2px;
 }
 
 .navigation-item {
@@ -295,7 +294,7 @@ sup {
 }
 .action-list {
     margin: auto;
-    margin-top: -4px;
+    margin-top: 7px;
 }
 .action-item {
     font-size: 20px;
@@ -599,9 +598,11 @@ button.btn-close {
     margin-top: 2px;
     overflow: hidden;
 }
+.banner img {
+    -webkit-transition: all 0.3s ease-out;
+}
 .banner:hover img {
     transform: scale(1.05);
-    transition: all 0.3s ease;
 }
 .appliance-product-name {
     position: absolute;
@@ -670,7 +671,7 @@ button.btn-close {
     top: 0;
     left: 0;
     opacity: 0;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.6s ease-in-out;
     
 }
 .product-item:hover .img-changer {
@@ -704,11 +705,11 @@ button.btn-close {
     }
 }
 .span-new {
-    font-size: 15px;
+    font-size: 14px;
     font-family: heading;
     color: #fff;
     background-color: #4ad295;
-    padding: 4px 10px;
+    padding: 1px 6px;
     border-radius: 3px;
 }
 .self-money {
@@ -716,14 +717,16 @@ button.btn-close {
     text-decoration-line: line-through;
     margin-right: 12px;
     opacity: 0.6;
+    font-family: inherit !important;
+
 }
-span.self {
+span.self a {
     display: block;
     font-size: 14px;
     font-family: heading;
     color: #fff;
     background-color: #e60023;
-    padding: 2px 6px;
+    padding: 1px 6px;
     border-radius: 3px;
     margin-top: 4px;
 }
@@ -747,6 +750,7 @@ span.self {
     }
 }
 .options-icon {
+    display: block;
     background-color: #fff;
     border-radius: 50%;
     margin-bottom: 10px;
@@ -780,8 +784,8 @@ span.self {
     }
 }
 .product-information {
-    padding-top: 12px;
-    padding-bottom: 32px;
+    padding-top: 15px;
+    padding-bottom: 29px;
 }
 .product-category {
     font-size: 15px;
@@ -804,13 +808,10 @@ span.self {
 #fetured {
     padding-top: 27px;
 }
-.img-star {
-    margin-left: 0.5px;
-}
-.icon-star-empty {
+.icon-star-full {
     font-size: 13px;
 }
-.icon-star-empty::before {
+.icon-star-full::before {
     color: #f5b301;
 }
 .fas {
@@ -926,6 +927,10 @@ span.self {
 .blog-lamp-text {
     margin-top: 21px;
     margin-bottom: 30px;
+}
+.blog-lamp-img {
+    overflow: hidden;
+    border-radius: 5px;
 }
 .blog-heading {
     color: var(--color-text);
@@ -1107,7 +1112,7 @@ a.list-group-item.contact-link.contact-item.contact-item-mobile {
 
 .contact {
     background-color: #ebebeb;
-    padding: 71px 273px 54px 230px;
+    padding: 70px 273px 55px 230px;
     margin-bottom: 20px;
 }
 .nav-information {
@@ -1119,7 +1124,7 @@ a.list-group-item.contact-link.contact-item.contact-item-mobile {
     color: var(--color-text);
     font-size: 18px;
     line-height: 27px;
-    padding: 0 0 14px 0;
+    padding: 0 0 21px 0;
     display: block !important;
     border: 0 !important;
 }
@@ -1135,6 +1140,7 @@ a.list-group-item.contact-link.contact-item.contact-item-mobile {
     padding: 0;
     margin-left: -3px;
     margin-top: 3px;
+    width: 90%;
 }
 .contact-information-company {
     font-size: 16px;
@@ -1143,7 +1149,7 @@ a.list-group-item.contact-link.contact-item.contact-item-mobile {
 }
 .contact-phone {
     display: flex;
-    margin-top: -12px;
+    margin-top: -20px;
 }
 .contact-item {
     font-size: 16px;
@@ -1157,14 +1163,14 @@ a.list-group-item.contact-link.contact-item.contact-item-mobile {
 }
 .contact-item:hover {
     background-color: #cecece;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .contact-item a:hover {
-    color: #000;
+    color: #3822d0;
 }
 .contact-img {
     display: block;
-    margin: 8px 15px 0 0;
+    margin: 15px 13px 0 0;
     width: 21px;
 }
 .lnr-chevron-down {
@@ -1222,6 +1228,7 @@ a.list-group-item.contact-link.contact-item.contact-item-mobile {
 .koller {
     font-size: 16px;
     font-family: heading;
+    cursor: pointer;
 }
 .pay {
     display: flex;
